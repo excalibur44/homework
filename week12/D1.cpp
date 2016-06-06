@@ -108,7 +108,7 @@ public:
 int main()
 {
 	string name_; char sex_; int age_; 		cin >> name_ >> sex_ >> age_;
-	int no_; float score_;					cin >> no_ >> score_;
+	int no_; float score_;				cin >> no_ >> score_;
 	string position_; string department_;	cin >> position_ >> department_;
 	string direction_; string tutor_;		cin >> direction_ >> tutor_;
 	grad_onwork humen(name_, sex_, age_, no_, score_, position_, department_, direction_, tutor_);
